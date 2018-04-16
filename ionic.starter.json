@@ -1,0 +1,11 @@
+{
+  "name": "Blank Starter",
+  "baseref": "master",
+  "proxies": [
+    {
+      "path": "http://localhost:8081",
+      "proxyUrl": "https://api.darksky.net/forecast/92d48f2f32fa1bec3f093243782b4b5b/-23.7661064,-53.3206105"
+    }
+  ]
+
+}

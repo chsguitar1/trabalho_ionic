@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Previsão do  Tempo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-item>
+   <button (click)="carregaDados()">Buscar</button>
+ </ion-item>
+ {{lista | json}}
+</ion-content>
